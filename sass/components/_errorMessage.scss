@@ -1,0 +1,23 @@
+.errorMessageContainer {
+  margin-top: 37px;
+  display: none;
+}
+
+.error-visible {
+  display: block;
+}
+
+.errorMessage {
+  width: 233px;
+  padding: 8px 0;
+  background-color: #ffd8cf;
+  margin: 0 auto;
+}
+
+.errorMessage__text {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #d0060e;
+}

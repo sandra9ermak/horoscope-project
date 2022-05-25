@@ -1,0 +1,23 @@
+.aquaImage,
+.piscesImage,
+.ariesImage,
+.taurusImage,
+.geminiImage,
+.cancerImage,
+.leoImage,
+.virgoImage,
+.libraImage,
+.scorpioImage,
+.sagittariusImage,
+.capricornImage{
+    margin: 0 auto;
+    display: none;
+}
+
+.zodiacSignImage-visible{
+    display: block;
+}
+
+.zodiacSignName{
+    font-weight: 600;
+}

@@ -1,0 +1,19 @@
+@import './base/common';
+@import './base/container';
+@import './base/wrapper';
+
+@import './components/dataProcessingLine';
+@import './components/progressLine';
+@import './components/errorMessage';
+@import './components/zodiacSign';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/aboutYou';
+@import './layout/questionSection';
+@import './layout/genderForm';
+@import './layout/birthDate';
+@import './layout/dataProcessing';
+@import './layout/footer';
+
+@import './utils/variables';

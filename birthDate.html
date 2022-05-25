@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your birth date</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Kanit:wght@500&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <p class="header__firstTitle">New horoscope for 2021!</p>
+          <p class="header__secondTitle">Find out what awaits you.</p>
+        </div>
+      </header>
+
+      <main>
+        <div class="container progressLine__container">
+          <div class="progressLine">
+            <div
+              class="progressLine__span--birthDate"
+              id="progressLineBirth"
+            ></div>
+          </div>
+        </div>
+
+        <section class="questionSection">
+          <div class="container">
+            <form class="question__form">
+              <p class="question__form--title">Enter your date of birth:</p>
+              <div class="birthDate__form--container">
+                <div class="birthDate__form--selectContainer">
+                  <select
+                    name="select"
+                    id="birthNumberSelect"
+                    class="birthDate__form--select"
+                    onchange="changeSelect()"
+                  >
+                    <option value="Day">Day</option>
+                    <!--  OPTIONS IN JS FILE -->
+                  </select>
+                </div>
+
+                <div class="birthDate__form--selectContainer">
+                  <select
+                    name="select"
+                    id="birthMonthSelect"
+                    class="birthDate__form--select"
+                    onchange="changeSelect()"
+                  >
+                    <option value="Month">Month</option>
+                    <!--  OPTIONS IN JS FILE -->
+                  </select>
+                </div>
+
+                <div class="birthDate__form--selectContainer">
+                  <select
+                    name="select"
+                    id="birthYearSelect"
+                    class="birthDate__form--select"
+                    onchange="changeSelect()"
+                  >
+                    <option value="Year">Year</option>
+                    <!--  OPTIONS IN JS FILE -->
+                  </select>
+                </div>
+
+                <div class="errorMessageContainer">
+                  <div class="errorMessage">
+                    <p class="errorMessage__text">Пожалуйста, выберите ответ</p>
+                  </div>
+                </div>
+
+                <div class="zodiacSign__container">
+                  <div class="zodiacSign">
+                    <img
+                      src="./img/Aquarius.png"
+                      alt="Aqua"
+                      class="aquaImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Pisces.png"
+                      alt="Pisces"
+                      class="piscesImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Aries.png"
+                      alt="Aries"
+                      class="ariesImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Taurus.png"
+                      alt="Taurus"
+                      class="taurusImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Gemini.png"
+                      alt="Gemini"
+                      class="geminiImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Cancer.png"
+                      alt="Cancer"
+                      class="cancerImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Leo.png"
+                      alt="Leo"
+                      class="leoImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Virgo.png"
+                      alt="Virgo"
+                      class="virgoImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Libra.png"
+                      alt="Libra"
+                      class="libraImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Scorpio.png"
+                      alt="Scorpio"
+                      class="scorpioImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Sagittarius.png"
+                      alt="Sagittarius"
+                      class="sagittariusImage"
+                      height="81"
+                      width="82"
+                    />
+                    <img
+                      src="./img/Capricorn.png"
+                      alt="Capricorn"
+                      class="capricornImage"
+                      height="81"
+                      width="82"
+                    />
+                    <p class="zodiacSignName"></p>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="question__form--buttonContainer">
+              <a href="./dataProcessing.html" class="question__form--buttonLink"
+                >Next</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="footer__title">2020 © horoscope</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/birthDate.js"></script>
+    <script src="./js/progressLine.js"></script>
+  </body>
+</html>

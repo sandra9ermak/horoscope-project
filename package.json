@@ -1,0 +1,25 @@
+{
+  "name": "horoscopee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandra9ermak/horoscopee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandra9ermak/horoscopee/issues"
+  },
+  "homepage": "https://github.com/sandra9ermak/horoscopee#readme"
+}

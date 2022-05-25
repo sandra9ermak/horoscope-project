@@ -1,0 +1,56 @@
+.progressLine__container{
+    margin-top: 35px;
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 375px) {
+        margin-bottom: 50px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 25px;
+    }
+}
+
+.progressLine {
+    height: 8px;
+    background: #F3F4F8;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.1);
+    width: 289px;
+    border-radius: 4px;
+
+    @media screen and (min-width: 375px) {
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 623px;
+    }
+}
+
+.progressLine__span--convenientTime {
+    // width: 26px;
+    width: 0;
+    height: 8px;
+    background-color: var(--dark-color);
+    border-radius: 4px;
+}
+
+.progressLine__span--insomnia {
+    @extend .progressLine__span--convenientTime;
+    width: 20%;
+}
+
+.progressLine__span--implementationOfPlans {
+    @extend .progressLine__span--convenientTime;
+    width: 40%;
+}
+
+.progressLine__span--after5years {
+    @extend .progressLine__span--convenientTime;
+    width: 60%;
+}
+
+.progressLine__span--birthDate {
+    @extend .progressLine__span--convenientTime;
+    width: 80%;
+}

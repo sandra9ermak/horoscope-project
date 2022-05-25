@@ -1,0 +1,67 @@
+.hero {
+  padding-top: 30px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 18px;
+  }
+
+  // &__img {
+  //   position: relative;
+
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+  //     top: 50%;
+  //     transform: translate(0, -50%);
+  //     left: 2%;
+  //     width: 146px;
+  //     height: 160px;
+  //     background-image: url("/img/icon_circle.svg");
+  //     background-size: contain;
+  //     z-index: 1;
+
+  //     @media screen and (min-width: 375px) {
+  //       width: 287px;
+  //       height: 158px;
+  //     }
+
+  //     @media screen and (min-width: 1200px) {
+  //       width: 315px;
+  //       height: 348px;
+  //     }
+  //   }
+  // }
+  &__img{
+    text-align: center;
+  }
+}
+
+// .horoscope__img {
+//   width: 287px;
+//   height: 158px;
+
+//   @media screen and (min-width: 375px) {
+//     width: 329px;
+//     height: 182px;
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     width: 623px;
+//     height: 344px;
+//   }
+// }
+
+.horoscope__img {
+  width: 200px;
+  height: 200px;
+
+  @media screen and (min-width: 375px) {
+    width: 220px;
+    height: 220px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 400px;
+    height: 400px;
+  }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convenient time</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Kanit:wght@500&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <p class="header__firstTitle">New horoscope for 2021!</p>
+          <p class="header__secondTitle">Find out what awaits you.</p>
+        </div>
+      </header>
+
+      <main>
+        <div class="container progressLine__container">
+          <div class="progressLine">
+            <div
+              class="progressLine__span--convenientTime"
+              id="progressLineConvenientTime"
+            ></div>
+          </div>
+        </div>
+
+        <section class="questionSection">
+          <div class="container">
+            <form class="question__form">
+              <p class="question__form--title">
+                What time of day do you feel most comfortable?:
+              </p>
+              <div class="question__form--container">
+                <div class="question__form--inputContainer">
+                  <input
+                    type="radio"
+                    id="morning"
+                    name="convenientTime"
+                    value="morning"
+                    class="question__form--input"
+                  />
+                  <label for="morning">Morning</label>
+                </div>
+
+                <div class="question__form--inputContainer">
+                  <input
+                    type="radio"
+                    id="night"
+                    name="convenientTime"
+                    value="night"
+                    class="question__form--input"
+                  />
+                  <label for="night">Night</label>
+                </div>
+
+                <div class="question__form--inputContainer">
+                  <input
+                    type="radio"
+                    id="evening"
+                    name="convenientTime"
+                    value="evening"
+                    class="question__form--input"
+                  />
+                  <label for="evening">Evening</label>
+                </div>
+
+                <div class="question__form--inputContainer">
+                  <input
+                    type="radio"
+                    id="afternoon"
+                    name="convenientTime"
+                    value="afternoon"
+                    class="question__form--input"
+                  />
+                  <label for="afternoon">Afternoon</label>
+                </div>
+              </div>
+            </form>
+            <div class="question__form--buttonContainer">
+              <a href="./insomnia.html" class="question__form--buttonLink"
+                >Next</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="footer__title">2020 © horoscope</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/questionForm.js"></script>
+    <script src="./js/progressLine.js"></script>
+  </body>
+</html>
