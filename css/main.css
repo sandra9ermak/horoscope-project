@@ -448,6 +448,8 @@ body::after {
   .question__form--buttonLink {
     width: 186px;
     margin-top: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 }
 
@@ -484,8 +486,8 @@ body::after {
 @media screen and (min-width: 1200px) {
   .gender__form--container {
     font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 140px;
     padding-right: 140px;
   }
