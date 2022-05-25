@@ -11,7 +11,7 @@ body {
 
 body::after {
   content: "";
-  background: url("../../img/horoscope-background.png");
+  background: url("../img/horoscope-background.png");
   opacity: 0.1;
   top: 59px;
   left: 0;
